@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reservations of JResto - Food and Beverages">
+    <meta name="keywords" content="Food, JResto, Beverages, Appertizer, Main Course, Dessert">
+    <meta name="author" content="Jovi Rachman">
+    <meta http-equiv="refresh" content="60">
+
+    <title>Reservation of JResto - Food & Beverages</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navigations -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand fs-4" href="/">JResto</a>
+                <!-- Toggle Button -->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Toggle Button -->
+        
+                <!-- Sidebar -->
+                <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <!-- Sidebar Header -->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Pages</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none border-0" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <!-- Sidebar Header -->
+                    <!-- Sidebar Body -->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-lg-0">
+                        <ul class="navbar-nav nav-underline mx-auto justify-content-lg-center justify-content-sm-center justify-content-center align-items-center fs-6 flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" aria-current="page" href="#">Reservation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" href="about.html">About</a>
+                            </li>
+                        </ul>
+                        <a class="contact text-decoration-none mx-auto py-2 justify-content-center align-items-center text-white" href="contact.html">Contact us</a>
+                    </div>
+                    <!-- Sidebar Body -->
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </nav>
+        <!-- Navigations -->
+    </header>
+
+    <main>
+        <!-- Hero Reservation -->
+        <section class="hero">
+            <div class="hero-image"
+                    style="background-image: url(./assets/img/Hero\ 4.png); background-repeat: no-repeat; background-position: center;">
+                    <div class="container-hero">
+                        <span class="desc-hero fw-medium">Reservation Here</span>
+                        <p>Reservations help ensure you get a table at the restaurant, especially during peak hours.</p>
+                    </div>
+                </div>
+        </section>
+        <!-- Hero Reservation -->
+
+        <!-- Form Registration -->
+        <form action="https://formspree.io/f/mdoqpdrg" method="POST" class="form container mt-5 mb-5 text-white">
+            <div class="form-group mb-3">
+                <label for="username">Full name</label>
+                <input type="text" name="username" placeholder="First and Last Name" required class="form-control">
+            </div>
+            <div class="form-group mb-3">
+                <label for="email">Your Email</label>
+                <div class="input-group">
+                    <input type="text" name="email" placeholder="example@gmail.com" class="form-control" required>
+                    <div class="input-group-append">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label><span class="hidden-xs">Your Reservation</span></label>
+                <div class="input-group">
+                    <input type="number" placeholder="Date" name="date" class="form-control" required>
+                    <input type="text" placeholder="June" name="month" class="form-control" required>
+                    <input type="number" placeholder="20.00" name="time" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label for="message">Addional Note <span style="opacity: 60%;">(Optional)</span></label>
+                <textarea class="form-control" placeholder="Leave a note here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label class="message-text" for="floatingTextarea2">Let us know you need something or have allergies to certain foods.</label>
+            </div>
+            <button type="submit" class="subscribe btn btn-dark btn-block mb-4">
+                Send Reservation
+            </button>
+        </form>
+        <!-- Form Registration -->
+    </main>
+
+    <footer class="mb-4 pt-4">
+        <div class="container footer">
+            <div class="row mx-auto pb-4 border-bottom justify-content-center">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="brand-name text-decoration-none">
+                        <a href="#" class="fs-4">JResto</a>
+                        <div class="line-footer ms-0 mb-4"></div>
+                        <p>JResto is a restaurant that offers a wide variety of 
+                            appetizers, main courses, and desserts to satisfy any 
+                            craving.</p>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="nav-pages text-decoration-none">
+                        <h5>All Pages</h5>
+                        <div class="line-footer ms-0 mb-4"></div>
+                        <li class="mb-2"><a href="menu.html">Menu</a></li>
+                        <li class="mb-2"><a href="#">Reservation</a></li>
+                        <li class="mb-2"><a href="about.html">About</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="social-med text-decoration-none">
+                        <h5>Contact us</h5>
+                        <div class="line-footer ms-0 mb-4"></div>
+                        <li class="mb-2"><a href="#"><i class="fa-brands fa-square-google-plus me-2"></i>Gmail</a></li>
+                        <li class="mb-2"><a href="#"><i class="fa-brands fa-square-twitter me-2"></i>Twitter</a></li>
+                        <li class="mb-2"><a href="#"><i class="fa-brands fa-square-instagram me-2"></i>Instagram</a></li>
+                        <li class="mb-2"><a href="#"><i class="fa-brands fa-square-facebook me-2"></i>Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <ul class="opening text-decoration-none ">
+                        <h5 class="ms-0 mb-4">Opening Hours</h5>
+                        <p>Monday - Thursday | 16.00 - 22.00</p>
+                        <p>Friday - Sunday | 18.00 - 23.00</p>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center fs-6 pt-4">&copy; <a href="#" class="copyright" style="color: #FBB817;">JResto</a> 2024. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+   
+
+
+    <script src="./assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

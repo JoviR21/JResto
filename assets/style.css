@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #242424;
+}
+
+/* Nav */
+.navbar-brand {
+    font-family: "Lora", serif;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.offcanvas {
+    background: rgba(36, 36, 36, 70%);
+    backdrop-filter: blur(7px);
+}
+
+.offcanvas-body .contact {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.contact {
+    padding: 0px 16px;
+    backdrop-filter: blur(6px);
+    transition: 0.3s;
+}
+
+.contact:hover {
+    background-color: #FBB817;
+    border: 2px solid #F2F2F2;
+}
+/* Nav */
+
+/* Carousel */
+.carousel-item {
+    height: 440px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h5,
+p,
+button {
+    font-family: "Lora", serif;
+    color: #FFF;
+}
+
+.carousel-caption h5 {
+    font-weight: 300;
+}
+
+.carousel-caption p {
+    font-weight: 500;
+    color: #FBB817;
+}
+
+.carousel-caption button {
+    padding: 4px 18px;
+    border: 2px solid #FBB817;
+    text-transform: uppercase;
+    backdrop-filter: blur(6px);
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.carousel-caption button:hover {
+    background-color: #FBB817;
+    border: 2px solid #F2F2F2;
+}
+/* Carousel */
+
+/* Menu Section */
+.menu {
+    font-family: "Lora", serif;
+}
+
+.menu h3 {
+    font-weight: 500;
+    color: #FBB817;
+}
+
+.menu .line-white {
+    border-bottom: 5px solid #FFF;
+    border-radius: 25px;
+    width: 3rem;
+}
+
+.menu .line-about {
+    border-bottom: 3px solid #FBB817;
+    border-radius: 25px;
+    width: 15rem;
+}
+
+.menu .card {
+    background-color: #303030;
+    border: 2px solid #FBB817;
+    color: #FBB817;
+    padding: 0;
+}
+
+.menu .card img {
+    object-fit: cover;
+    object-position: center;
+    height: 14rem;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.menu .card img:hover {
+    opacity: 60%;
+}
+
+.menu .card h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.menu .card p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.menu .card button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #FBB817;
+    transition: all 0.3s;
+    background: none;
+    border: none;
+    padding: 0 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu .card button:hover {
+    transform: translateX(8px);
+}
+/* Menu Section */
+
+/* History Section */
+.history {
+    background: #303030;
+}
+
+.history .card {
+    background: none;
+    border: none;
+}
+
+.history .card img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.history .card h4 {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: #FBB817;
+}
+
+.history .card p {
+    font-family: "Lora", serif;
+    font-weight: 300;
+}
+/* History Section */
+
+/* Why Choose Us */
+.why {
+    font-family: "Lora", serif;
+}
+
+.why h3 {
+    font-weight: 500;
+    color: #FBB817;
+}
+
+.why .card {
+    background: none;
+    border: none;
+    color: #FFF;
+}
+
+.why .card span {
+    font-size: 42px;
+}
+
+.why .card h5 {
+    color: #FBB817;
+}
+/* Why Choose Us */
+
+/* Maps */
+.maps {
+    background-color: #303030;
+    font-weight: 500;
+    color: #FBB817;
+}
+/* Maps */
+
+/* Testimonials */
+.testimonials {
+    background-color: #303030;
+}
+
+.testimonials .carousel-item {
+    height: 200px;
+}
+
+.testimonials .carousel-caption p {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.testimonials h3 {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: #FBB817;
+}
+
+.testimonials span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FBB817;
+}
+/* Testimonials */
+
+/* Hero */
+.hero-image {
+    position: relative;
+    height: 440px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.container-hero {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: #FBB817;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container-hero span {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.container-hero p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FEFEFE;
+    opacity: 70%;
+}
+
+.desc-hero {
+    margin: 7px;
+    display: block;
+    font-size: 26px;
+}
+/* Hero */
+
+/* Appertizer Menu */
+.food-menu {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.food-menu h3 {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.food-menu .line-white {
+    border-top: 5px solid #FBB817;
+    border-radius: 25px;
+}
+
+.food-menu .card {
+    background-color: #303030;
+    border: 2px solid #FBB817;
+    color: #FBB817;
+    padding: 0;
+    max-width: 20rem;
+    height: 100%;
+}
+
+.food-menu .card .card-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.food-menu .card .card-text {
+    flex-grow: 1;
+}
+
+.food-menu .card img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 10rem;
+    transition: all 0.3s;
+}
+
+.food-menu .card img:hover {
+    opacity: 60%;
+}
+
+.food-menu .card h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.food-menu .card p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+/* Appertizer Menu */
+
+/* Form Registration */
+.form { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    max-width: 600px;
+    border-bottom: 2px solid #FBB817;
+}
+
+.form .form-control {
+    background-color: #343434;
+    border: 2px solid #FBB817;
+    color: #FFF;
+}
+
+.form .form-control::placeholder {
+    color: #F2F2F2;
+    opacity: 60%;
+}
+
+.form .message-text {
+    opacity: 60%;
+}
+
+.form button {
+    padding: 4px 18px;
+    border: 2px solid #FBB817;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s;
+    background-color: #242424;
+}
+
+.form button:hover {
+    background-color: #FBB817;
+    border: 2px solid #F2F2F2;
+}
+/* Form Registration */
+
+/* About */
+.about {
+    background: #303030;
+}
+
+.about h3 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+    color: #FBB817;
+}
+
+.about .line-about {
+    width: 8rem;
+    border-bottom: 3px solid #FBB817;
+    border-radius: 25px;
+}
+
+.about .card {
+    background-color: #242424;
+    border: 2px solid #FBB817;
+}
+
+.about .card p {
+    font-family: "Lora", serif;
+    font-weight: 300;  
+}
+
+.about .card p span {
+    color: #FBB817;
+    font-weight: 500;
+}
+/* About */
+
+/* Contact */
+.contact-us .hero-image {
+    position: relative;
+    height: 840px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.contact-us .container-hero {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    color: #FEFEFE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact-us .container-hero h3 {
+    text-transform: none;
+}
+
+.contact-us .container-hero span {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.contact-us .container-hero p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FEFEFE;
+    opacity: 70%;
+}
+
+.contact-us .desc-hero {
+    margin: 7px;
+    display: block;
+    font-size: 26px;
+}
+.contact-us .form { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    max-width: 600px;
+    border-bottom: 2px solid #FBB817;
+    width: 40rem;
+}
+
+.contact-us .form .form-control {
+    background-color: #343434;
+    border: 2px solid #FBB817;
+    color: #FFF;
+}
+
+.contact-us .form .form-control::placeholder {
+    color: #F2F2F2;
+    opacity: 60%;
+}
+
+.contact-us .form button {
+    padding: 4px 18px;
+    border: 2px solid #FBB817;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s;
+    background-color: #242424;
+}
+
+.contact-us .form button:hover {
+    background-color: #FBB817;
+    border: 2px solid #F2F2F2;
+}
+/* Contact */
+
+/* Footer */
+footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+footer .brand-name a{
+    font-family: "Lora", serif;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    color: #FEFEFE;
+}
+
+footer p {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    text-align: start;
+}
+
+footer .opening p {
+    opacity: 80%;
+}
+
+footer h5 {
+    color: #FEFEFE;
+}
+
+footer .line-footer {
+    border-top: 5px solid #FBB817;
+    border-radius: 25px;
+    width: 6rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F2F2F2; 
+    list-style: none;
+    font-size: 18px;
+}
+
+footer li {
+    transition: all 0.3s;
+}
+
+footer li:hover {
+    transform: translateX(6px);
+}
+
+footer .copyright {
+    transition: all 0.3s;
+}
+
+footer .copyright:hover {
+    opacity: 60%;
+}
+/* Footer */
